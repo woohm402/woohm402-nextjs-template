@@ -2,6 +2,8 @@
 
 This is a template repository with my favorite setup of NextJS.
 
+<br />
+
 ## Installaion
 
 Clone this repository, run `yarn install && yarn dev`, visit http://localhost:3000.
