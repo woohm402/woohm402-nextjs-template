@@ -5,5 +5,5 @@ export const Example = () => {
 
   console.log(data);
 
-  return <div>page</div>;
+  return <div>check console</div>;
 };
