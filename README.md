@@ -2,6 +2,12 @@
 
 This is a template repository with my favorite setup of NextJS.
 
+## Installaion
+
+Clone this repository, run `yarn install && yarn dev`, visit http://localhost:3000.
+
+<br />
+
 ## About template
 
 1. TypeScript
@@ -32,6 +38,8 @@ This is a template repository with my favorite setup of NextJS.
 6. 코드 스타일
 
    - eslint & prettier 를 이용한다. eslint 는 충분한 이유로 TS 코드의 퀄리티를 높이고, prettier 는 코드 가독성을 도와 준다.
+
+<br />
 
 ## Log
 
