@@ -1,5 +1,5 @@
 import { Example } from '../components/pages';
-import { Layout } from '../components/templates/layout/layout';
+import { Layout } from '../components/templates';
 
 const ExamplePage = () => {
   return (
