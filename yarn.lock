@@ -229,6 +229,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/classnames@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "@types/classnames@npm:2.3.1"
+  dependencies:
+    classnames: "*"
+  checksum: 09a17ea08fcb83380921efdfdac94cfa162f87025cae0bf6f4ba508c2fa5f436459ce7612905a3f968fdddb68c03b8e6ff08e762ed2d0c110c5c4fceb244dc55
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:^7.0.9":
   version: 7.0.9
   resolution: "@types/json-schema@npm:7.0.9"
@@ -786,6 +795,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"classnames@npm:*, classnames@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "classnames@npm:2.3.1"
+  checksum: 14db8889d56c267a591f08b0834989fe542d47fac659af5a539e110cc4266694e8de86e4e3bbd271157dbd831361310a8293e0167141e80b0f03a0f175c80960
+  languageName: node
+  linkType: hard
+
 "clean-stack@npm:^2.0.0":
   version: 2.2.0
   resolution: "clean-stack@npm:2.2.0"
@@ -1076,9 +1092,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-woohm402@npm:^0.1.4":
-  version: 0.1.4
-  resolution: "eslint-config-woohm402@npm:0.1.4"
+"eslint-config-woohm402@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "eslint-config-woohm402@npm:1.1.0"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5.12.1
     "@typescript-eslint/parser": ^5.12.1
@@ -1088,7 +1104,9 @@ __metadata:
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.28.0
     prettier: ^2.5.1
-  checksum: 19f16cee2e84b79b1f0f35d39177d25df4dc0e8e7fb611e41c2ea919cc4403c9f17538e9fd76e1e39bca2c96f87b648567ddd7e5fe4221bb48d71c3661d92a32
+    react: ^17.0.2
+    sass: ^1.49.8
+  checksum: c4245cc63b47dc8b257f23d9d1613337716aa311b036f7c7d9127c4f2cb6e32240d40f23eefffa5931eecf9090dcedc20eae52a7a863ea941ed4b61ba39d6e33
   languageName: node
   linkType: hard
 
@@ -3345,14 +3363,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "woohm402-nextjs-template@workspace:."
   dependencies:
+    "@types/classnames": ^2.3.1
     "@types/node": 17.0.8
     "@types/react": 17.0.38
     "@typescript-eslint/eslint-plugin": ^5.12.1
     "@typescript-eslint/parser": ^5.12.1
+    classnames: ^2.3.1
     eslint: ^8.9.0
     eslint-config-next: 12.0.7
     eslint-config-prettier: ^8.4.0
-    eslint-config-woohm402: ^0.1.4
+    eslint-config-woohm402: ^1.1.0
     eslint-import-resolver-node: ^0.3.6
     eslint-plugin-import: ^2.25.4
     eslint-plugin-prettier: ^4.0.0
