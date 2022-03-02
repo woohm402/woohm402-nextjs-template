@@ -1092,9 +1092,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-woohm402@npm:^0.1.4":
-  version: 0.1.4
-  resolution: "eslint-config-woohm402@npm:0.1.4"
+"eslint-config-woohm402@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "eslint-config-woohm402@npm:1.1.0"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ^5.12.1
     "@typescript-eslint/parser": ^5.12.1
@@ -1104,7 +1104,9 @@ __metadata:
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.28.0
     prettier: ^2.5.1
-  checksum: 19f16cee2e84b79b1f0f35d39177d25df4dc0e8e7fb611e41c2ea919cc4403c9f17538e9fd76e1e39bca2c96f87b648567ddd7e5fe4221bb48d71c3661d92a32
+    react: ^17.0.2
+    sass: ^1.49.8
+  checksum: c4245cc63b47dc8b257f23d9d1613337716aa311b036f7c7d9127c4f2cb6e32240d40f23eefffa5931eecf9090dcedc20eae52a7a863ea941ed4b61ba39d6e33
   languageName: node
   linkType: hard
 
@@ -3370,7 +3372,7 @@ __metadata:
     eslint: ^8.9.0
     eslint-config-next: 12.0.7
     eslint-config-prettier: ^8.4.0
-    eslint-config-woohm402: ^0.1.4
+    eslint-config-woohm402: ^1.1.0
     eslint-import-resolver-node: ^0.3.6
     eslint-plugin-import: ^2.25.4
     eslint-plugin-prettier: ^4.0.0
