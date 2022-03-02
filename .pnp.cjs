@@ -35,10 +35,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@types/classnames", "npm:2.3.1"],
             ["@types/node", "npm:17.0.8"],
             ["@types/react", "npm:17.0.38"],
             ["@typescript-eslint/eslint-plugin", "virtual:de73a8155ccd01b1f7000a8e26be8ffcf5a9606985294ec14a3bcfc24ba5ba1e4d6b13bb541b0910dac64b95ae91ac81708f3e9340109f560f140833f820895c#npm:5.12.1"],
             ["@typescript-eslint/parser", "virtual:de73a8155ccd01b1f7000a8e26be8ffcf5a9606985294ec14a3bcfc24ba5ba1e4d6b13bb541b0910dac64b95ae91ac81708f3e9340109f560f140833f820895c#npm:5.12.1"],
+            ["classnames", "npm:2.3.1"],
             ["eslint", "npm:8.9.0"],
             ["eslint-config-next", "virtual:de73a8155ccd01b1f7000a8e26be8ffcf5a9606985294ec14a3bcfc24ba5ba1e4d6b13bb541b0910dac64b95ae91ac81708f3e9340109f560f140833f820895c#npm:12.0.7"],
             ["eslint-config-prettier", "virtual:de73a8155ccd01b1f7000a8e26be8ffcf5a9606985294ec14a3bcfc24ba5ba1e4d6b13bb541b0910dac64b95ae91ac81708f3e9340109f560f140833f820895c#npm:8.4.0"],
@@ -321,6 +323,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@tootallnate-once-npm-1.1.2-0517220057-e1fb1bbbc1.zip/node_modules/@tootallnate/once/",
           "packageDependencies": [
             ["@tootallnate/once", "npm:1.1.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/classnames", [
+        ["npm:2.3.1", {
+          "packageLocation": "./.yarn/cache/@types-classnames-npm-2.3.1-92239d7f0a-09a17ea08f.zip/node_modules/@types/classnames/",
+          "packageDependencies": [
+            ["@types/classnames", "npm:2.3.1"],
+            ["classnames", "npm:2.3.1"]
           ],
           "linkType": "HARD",
         }]
@@ -1052,6 +1064,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/chownr-npm-2.0.0-638f1c9c61-c57cf9dd07.zip/node_modules/chownr/",
           "packageDependencies": [
             ["chownr", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["classnames", [
+        ["npm:2.3.1", {
+          "packageLocation": "./.yarn/cache/classnames-npm-2.3.1-f2ae0a8d3c-14db8889d5.zip/node_modules/classnames/",
+          "packageDependencies": [
+            ["classnames", "npm:2.3.1"]
           ],
           "linkType": "HARD",
         }]
@@ -4133,10 +4154,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["woohm402-nextjs-template", "workspace:."],
+            ["@types/classnames", "npm:2.3.1"],
             ["@types/node", "npm:17.0.8"],
             ["@types/react", "npm:17.0.38"],
             ["@typescript-eslint/eslint-plugin", "virtual:de73a8155ccd01b1f7000a8e26be8ffcf5a9606985294ec14a3bcfc24ba5ba1e4d6b13bb541b0910dac64b95ae91ac81708f3e9340109f560f140833f820895c#npm:5.12.1"],
             ["@typescript-eslint/parser", "virtual:de73a8155ccd01b1f7000a8e26be8ffcf5a9606985294ec14a3bcfc24ba5ba1e4d6b13bb541b0910dac64b95ae91ac81708f3e9340109f560f140833f820895c#npm:5.12.1"],
+            ["classnames", "npm:2.3.1"],
             ["eslint", "npm:8.9.0"],
             ["eslint-config-next", "virtual:de73a8155ccd01b1f7000a8e26be8ffcf5a9606985294ec14a3bcfc24ba5ba1e4d6b13bb541b0910dac64b95ae91ac81708f3e9340109f560f140833f820895c#npm:12.0.7"],
             ["eslint-config-prettier", "virtual:de73a8155ccd01b1f7000a8e26be8ffcf5a9606985294ec14a3bcfc24ba5ba1e4d6b13bb541b0910dac64b95ae91ac81708f3e9340109f560f140833f820895c#npm:8.4.0"],
