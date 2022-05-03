@@ -1,6 +1,5 @@
-import { PropsWithChildren } from 'react';
-
 import Head from 'next/head';
+import { PropsWithChildren } from 'react';
 
 import styles from './layout.module.scss';
 

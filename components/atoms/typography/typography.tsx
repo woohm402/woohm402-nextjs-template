@@ -1,6 +1,5 @@
-import { PropsWithChildren } from 'react';
-
 import classNames from 'classnames';
+import { PropsWithChildren } from 'react';
 
 import styles from './typography.module.scss';
 interface Props {
