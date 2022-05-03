@@ -1,7 +1,8 @@
 import Head from 'next/head';
-import { PropsWithChildren } from 'react';
 
 import styles from './layout.module.scss';
+
+import type { PropsWithChildren } from 'react';
 
 export const Layout = ({ children }: PropsWithChildren<Record<never, never>>) => {
   return (

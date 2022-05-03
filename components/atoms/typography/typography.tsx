@@ -1,7 +1,9 @@
 import classNames from 'classnames';
-import { PropsWithChildren } from 'react';
 
 import styles from './typography.module.scss';
+
+import type { PropsWithChildren } from 'react';
+
 interface Props {
   as: keyof JSX.IntrinsicElements;
   className?: string;
